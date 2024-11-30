@@ -11,7 +11,7 @@ function App() {
   const handleGetStartedClick = () => {
     setShowProductList(true);
   };
-
+  // created basic skeleton UI interface 
   return (
     <div className="app-container">
       <div className={`landing-page ${showProductList ? 'fade-out' : ''}`}>
