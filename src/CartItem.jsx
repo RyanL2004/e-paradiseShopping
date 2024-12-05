@@ -17,26 +17,24 @@ const CartItem = ({ onContinueShopping }) => {
   const handleContinueShopping = (e) => {
    ProductList();
   };
-  const handleCheckoutShopping = (e) => {
-    alert("Functionality to be added for uture reference")
-  }
+  
 
 
   const handleIncrement = (item) => {
-    dispatch(updateQuantity({id:item.id, quantity: item.quantity + 1}))
+    dispatch(updateQuantity({id: item, quantity: item.quantity + 1}))
   };
 
   const handleDecrement = (item) => {
     if(item.quantity > 1 ){
-        dispatch(updateQuantity({ id: item.id, quantity: item.quantity - 1}))
+        dispatch(updateQuantity({ id: item, quantity: item.quantity - 1}))
     }
     else{
-        dispatch(removeItem(item.id))
+        dispatch(removeItem(item))
     }
   };
 
   const handleRemove = (item) => {
-    dispatch(removeItem(item.id));
+    dispatch(removeItem(item));
   };
 
 
@@ -44,7 +42,7 @@ const CartItem = ({ onContinueShopping }) => {
   const calculateTotalCost = (item) => {
     item.cost * item.cart.quantity
   };
- handleIncrement
+ 
   
 
   return (
