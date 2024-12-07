@@ -9,7 +9,6 @@ const CartItem = ({ onContinueShopping }) => {
 
   
 const regex = /[^\d.-]/g;
-
 const calculateTotalAmount = () => {
     let totalAmount = 0;
 
@@ -55,7 +54,7 @@ const calculateTotalAmount = () => {
 
   // Calculate total cost based on quantity for an item
   const calculateTotalCost = (item) => {
-    return item.cost * item.quantity
+    return Number(item.cost.replace(regex, '')) * item.quantity
   };
  
   
