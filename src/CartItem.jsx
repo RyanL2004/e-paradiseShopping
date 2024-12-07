@@ -7,16 +7,16 @@ const CartItem = ({ onContinueShopping }) => {
   const cart = useSelector(state => state.cart.items);
   const dispatch = useDispatch();
 
-  
+// Define the regex constant to remove any non-numeric characters except for the decimal point and minus sign
 const regex = /[^\d.-]/g;
 const calculateTotalAmount = () => {
     let totalAmount = 0;
 
     cart.forEach(item => {
-        
+        // Clean up the cost using the regex and automatically convert it to a number
         const cost = Number(item.cost.replace(regex, ''));
 
-        
+        // Add the total amount for the item (no need for NaN check anymore)
         totalAmount += item.quantity * cost;
     });
 
@@ -54,6 +54,7 @@ const calculateTotalAmount = () => {
 
   // Calculate total cost based on quantity for an item
   const calculateTotalCost = (item) => {
+    //Use of Number to convert cost datatype and added regex global var to remove non numeric characters 
     return Number(item.cost.replace(regex, '')) * item.quantity
   };
  
