@@ -7,7 +7,7 @@ const CartItem = ({ onContinueShopping }) => {
 
   const cart = useSelector(state => state.cart.items);
   const dispatch = useDispatch();
-
+  
 // Define the regex constant to remove any non-numeric characters except for the decimal point and minus sign
 const regex = /[^\d.-]/g;
 const calculateTotalAmount = () => {
