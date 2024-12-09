@@ -214,6 +214,19 @@ body {
   .product-button:hover {
     background-color: #45a049;
   }
+  .disabled-button {
+    background-color: #7d817d; /* Grey */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
   
   .product-button.added-to-cart {
     background-color: grey; /* Grey when product is added */

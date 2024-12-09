@@ -9,7 +9,7 @@ function ProductList() {
     const [addedToCart, setAddedToCart] = useState({});
     const dispatch = useDispatch();
     const totalQuantity = useSelector(state=> state.cart.totalQuantity);
-
+    const [isDisabled, setIsDisabled] = useState(false);
 
     const handleAddToCart = (product) => {
         dispatch(addItem(product));
@@ -17,8 +17,9 @@ function ProductList() {
             ...prevState,
             [product.name]: true, //Set the product name as key and value as true to indicate its added to cart 
         }));
-
     };
+    
+
     const plantsArray = [
         {
             category: "Air Purifying Plants",
@@ -260,6 +261,9 @@ const handlePlantsClick = (e) => {
     e.preventDefault();
     setShowCart(false);
   };
+  const handleClick = () => {
+    setIsDisabled(true);
+}
     return (
         <div>
              <div className="navbar" style={styleObj}>
@@ -305,7 +309,7 @@ const handlePlantsClick = (e) => {
                                 <div className="product-card" key={plantIndex}>
                                 <img className="product-image" src={plant.image} alt={plant.name} />
                                 <div className="product-title">{plant.name}</div>
-                                <button className="product-button" onClick ={() => handleAddToCart(plant)}>Add to Cart</button>
+                                <button className= {addedToCart[plant.name]? "disabled-button":"product-button"} onClick ={() => handleAddToCart(plant)} disabled={addedToCart[plant.name]}>Add To Cart</button>
                                 </div>
                             ))}
                         </div>
