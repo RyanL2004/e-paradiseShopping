@@ -19,7 +19,6 @@ function ProductList() {
         }));
     };
     
-
     const plantsArray = [
         {
             category: "Air Purifying Plants",
@@ -260,10 +259,9 @@ const handlePlantsClick = (e) => {
    const handleContinueShopping = (e) => {
     e.preventDefault();
     setShowCart(false);
+    setAddedToCart({});
   };
-  const handleClick = () => {
-    setIsDisabled(true);
-}
+  
     return (
         <div>
              <div className="navbar" style={styleObj}>
