@@ -1,11 +1,31 @@
 # ⏳In progress...
-# 🌿 Paradise Nursery 
+# 🌿 Paradise Nursery
 
 **e-Paradise Shopping** is a web application designed to provide users with a seamless online shopping experience for nursery and gardening products. The platform offers a wide range of plants, tools, and accessories to cater to both novice and experienced gardeners.
+
+---
 
 ## 🚀 Live Demo
 
 Experience the application firsthand: [e-Paradise Shopping Live Demo](https://ryanl2004.github.io/e-paradiseShopping/)
+
+---
+
+## 📜 Table of Contents
+
+1. [Features](#-features)
+2. [Technologies Used](#%EF%B8%8F-technologies-used)
+3. [Project Structure](#-project-structure)
+4. [Installation](#-installation)
+5. [Running Tests](#-running-tests)
+6. [Current Status](#-current-status)
+7. [Contributing](#-contributing)
+8. [Code of Conduct](#-code-of-conduct)
+9. [Security Policy](#-security-policy)
+10. [License](#-license)
+11. [Contact](#-contact)
+
+---
 
 ## 🛠️ Features
 
@@ -15,16 +35,22 @@ Experience the application firsthand: [e-Paradise Shopping Live Demo](https://ry
 - **Checkout Process**: Complete purchases with a user-friendly checkout system.
 - **Responsive Design**: Optimized for various devices, ensuring a consistent user experience across desktops, tablets, and smartphones.
 
+---
+
 ## 🖥️ Technologies Used
 
-- **Frontend**:
-  - [React](https://reactjs.org/): JavaScript library for building user interfaces.
-  - [Redux](https://redux.js.org/): State management for predictable application behavior.
-  - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript): Core programming language of the web.
-  - [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS): Styling for the application.
+### **Frontend**
 
-- **Build Tools**:
-  - [Vite](https://vitejs.dev/): Next-generation frontend tooling for rapid development.
+- [React](https://reactjs.org/): A JavaScript library for building user interfaces, ensuring a dynamic and interactive shopping experience.
+- [Redux](https://redux.js.org/): A predictable state container for managing application state efficiently.
+- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript): The core programming language of the web, used for building interactivity.
+- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS): Enables the styling and layout of the application.
+
+### **Build Tools**
+
+- [Vite](https://vitejs.dev/): A next-generation frontend tooling that ensures fast builds and a smooth development experience.
+
+---
 
 ## 📂 Project Structure
 
@@ -44,6 +70,8 @@ e-paradiseShopping/
 ├── vite.config.js      # Vite configuration
 └── README.md           # Project documentation
 ```
+
+---
 
 ## 📦 Installation
 
@@ -67,6 +95,8 @@ To set up the project locally:
    ```
    The application will be accessible at `http://localhost:3000`.
 
+---
+
 ## 🧪 Running Tests
 
 To execute tests:
@@ -74,6 +104,23 @@ To execute tests:
 ```bash
 npm test
 ```
+
+---
+
+## 🚧 Current Status
+
+### In Progress
+
+We are actively working on:
+
+- Improving the checkout process to include multiple payment methods.
+- Adding user authentication for personalized experiences.
+- Expanding the product catalog to cover more gardening categories.
+- Implementing backend functionality for enhanced features.
+
+Stay tuned for updates!
+
+---
 
 ## 🤝 Contributing
 
@@ -96,12 +143,35 @@ We welcome contributions to enhance the project! To contribute:
 
 Please ensure your code adheres to our coding standards and includes relevant tests.
 
+---
+
+## 🌟 Code of Conduct
+
+We expect all participants to adhere to our [Code of Conduct](CODE_OF_CONDUCT.md). Please read it to understand the standards of behavior we expect from our community.
+
+---
+
+## 🛡️ Security Policy
+
+To report security vulnerabilities, please contact us directly at **security@example.com**. Your report will be handled with the utmost confidentiality, and we will work to address issues promptly.
+
+---
+
 ## 🛡️ License
 
 This project is licensed under the [Apache-2.0 License](LICENSE).
 
+---
+
 ## 📧 Contact
 
-For inquiries or support, please contact Ryan at [ryan@example.com](mailto:ryan@example.com).
+For any questions or suggestions, feel free to reach out:
+
+- **GitHub Issues**: [Create an issue](https://github.com/RyanL2004/e-paradiseShopping/issues)
+- **Email**: ryanl@example.com
+- **LinkedIn**: [Ryan's Profile](https://linkedin.com/in/ryanl2004)
 
 ---
+
+Thank you for checking out **e-Paradise Shopping**! Your feedback and contributions are highly valued.
+
