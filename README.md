@@ -1,7 +1,6 @@
-# ⏳In progress...
 # 🌿 Paradise Nursery
 
-**e-Paradise Shopping** is a web application designed to provide users with a seamless online shopping experience for nursery and gardening products. The platform offers a wide range of plants, tools, and accessories to cater to both novice and experienced gardeners.
+**Paradise Nursury** is a web application designed to provide users with a seamless online shopping experience for nursery and gardening products. The platform offers a wide range of plants, tools, and accessories to cater to both novice and experienced gardeners.
 
 ---
 
@@ -153,7 +152,7 @@ We expect all participants to adhere to our [Code of Conduct](CODE_OF_CONDUCT.md
 
 ## 🛡️ Security Policy
 
-To report security vulnerabilities, please contact us directly at **security@example.com**. Your report will be handled with the utmost confidentiality, and we will work to address issues promptly.
+To report security vulnerabilities, please contact us directly at **securityparadise@gmail.com**. Your report will be handled with the utmost confidentiality, and we will work to address issues promptly.
 
 ---
 
@@ -168,8 +167,12 @@ This project is licensed under the [Apache-2.0 License](LICENSE).
 For any questions or suggestions, feel free to reach out:
 
 - **GitHub Issues**: [Create an issue](https://github.com/RyanL2004/e-paradiseShopping/issues)
-- **Email**: ryanl@example.com
-- **LinkedIn**: [Ryan's Profile](https://linkedin.com/in/ryanl2004)
+- **Email**: rayanlouahche2004@gmail.com
+- **LinkedIn**: [Rayan's Profile](https://www.linkedin.com/in/rayan-louahche/)
+
+---
+
+Thank you for checking out **e-Paradise Shopping**! Your feedback and contributions are highly valued.
 
 ---
 
