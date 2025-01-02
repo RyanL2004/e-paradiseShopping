@@ -173,8 +173,3 @@ For any questions or suggestions, feel free to reach out:
 ---
 
 Thank you for checking out **e-Paradise Shopping**! Your feedback and contributions are highly valued.
-
----
-
-Thank you for checking out **e-Paradise Shopping**! Your feedback and contributions are highly valued.
-
